@@ -1,0 +1,40 @@
+.btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+    &:hover {
+        text-decoration: none;
+    }
+    &:active {
+        transform: translateY(2px);
+    }
+    &:focus {
+        outline: none;
+    }
+}
+.header-btn {
+    font-size: 1.2rem;
+    color: @light-grey;
+    text-transform: uppercase;
+    border: 1px solid #656565;
+    border-radius: 3px;
+    padding: 15px 0; 
+    margin-top: 25px;   
+    &:hover {
+        color: #ededed;
+        background: #656565;
+    }
+}
+.btn-blue-dark {
+    border-radius: 5px;
+    background: rgb(12, 129, 194);
+    background: -moz-linear-gradient(90deg, rgb(12, 129, 194) 30%, rgb(19, 65, 109) 70%);
+    background: -webkit-linear-gradient(90deg, rgb(12, 129, 194) 30%, rgb(19, 65, 109) 70%);
+    background: -o-linear-gradient(90deg, rgb(12, 129, 194) 30%, rgb(19, 65, 109) 70%);
+    background: -ms-linear-gradient(90deg, rgb(12, 129, 194) 30%, rgb(19, 65, 109) 70%);
+    background: linear-gradient(180deg, rgb(12, 129, 194) 30%, rgb(19, 65, 109) 70%);
+}

@@ -1,0 +1,162 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .you-need-it-if__item {
+        padding: 100px 20px 0;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .main-header {
+    	padding-bottom: 25px;
+    }
+    .main-scr-overlay {
+    	background: rgba(255,255,255,0.7);
+    }
+    .you-need-it-if__item {
+        min-height: 440px;
+        padding: 175px 185px 0;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Custom, iPhone 6 Plus*/
+@media only screen and (max-width : 736px) {
+
+}
+
+/* Custom, iPhone 6 */
+@media only screen and (max-width : 667px) {
+    .you-need-it-if__item {
+        min-height: 400px;
+        padding: 160px 150px 0;
+    }
+}
+@media only screen and (max-width : 588px) {
+    .you-need-it-if__item {
+        min-height: 340px;
+        padding: 125px 106px 0;
+    }
+}
+/* Custom, iPhone 5 */
+@media only screen and (max-width : 568px) {
+    html {
+        font-size: 9px;
+    }
+	.main-screen {
+    	min-height: 550px;
+    }
+	.logo-top-text {
+		padding-top: 10px;
+	}
+    .you-need-it-if {
+        padding-top: 70px;
+    }
+    .you-need-it-if__headline {
+        margin-bottom: 70px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .main-headings-wrap h1 {
+    	font-size: 4rem;
+    }
+    .main-headings-wrap h2 {
+    	font-size: 2.5rem;
+    }
+    .you-need-it-if__item {
+        min-height: 275px;
+        padding: 100px 66px 0;
+    }
+}
+
+/* Custom, iPhone 6 Plus*/
+@media only screen and (max-width : 414px) {
+	.you-need-it-if__item {
+        min-height: 225px;
+        padding: 75px 20px 0;
+    }
+}
+
+/* Custom, iPhone 6 */
+@media only screen and (max-width : 375px) {
+    html {
+        font-size: 8px;
+    }
+    .main-screen {
+    	min-height: 450px;
+    }
+    .main-headings-wrap h1 {
+    	font-size: 3.6rem;
+    }
+    .main-headings-wrap p {
+    	font-size: 2.4rem;
+    }
+    .you-need-it-if__item {
+        min-height: 200px;
+        padding: 53px 23px 0;
+    }
+}
+@media only screen and (max-width : 320px){
+    
+	.main-screen {
+    	min-height: 570px;
+    }
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

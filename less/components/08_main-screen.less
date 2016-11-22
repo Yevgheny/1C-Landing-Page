@@ -1,0 +1,57 @@
+.main-screen {
+    position: relative;
+    width: 100%;
+    min-height: 580px;
+    background: url('@{dir}main-screen-bg.jpg')no-repeat top center;
+    
+}
+.main-scr-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+    padding-top: 75px;
+}
+.main-headings-wrap {
+    h1 {
+        color: @blue;
+        font-weight: 400;
+        text-transform: uppercase; 
+        letter-spacing: 2px; 
+        margin-bottom: 0;
+    }
+    h2 {
+        .fs(@subh);
+        color: @blue;
+        font-weight: 500;
+        margin: 0 0 25px;
+    }
+    p {
+        font-size: 2.6rem;
+        margin-bottom: 40px;
+    }    
+}
+.main-scr-btn {
+    max-width: 370px;
+    font-size: 1.5rem;
+    font-family: @ff2;
+    color: @white;
+    text-transform: uppercase;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 1);
+    border: 1px solid #C8E8F9; 
+    border-bottom: 1px solid #0579BD;   
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 91, 154, 1);
+    -moz-box-shadow:    1px 1px 1px 1px rgba(0, 91, 154, 1);
+    box-shadow:         1px 1px 1px 1px rgba(0, 91, 154, 1);
+    padding: 27px 0;
+    &:hover {
+        color: @white;
+        background: rgb(19, 65, 109);
+        background: -moz-linear-gradient(90deg, rgb(19, 65, 109) 30%, rgb(12, 129, 194) 70%);
+        background: -webkit-linear-gradient(90deg, rgb(19, 65, 109) 30%, rgb(12, 129, 194) 70%);
+        background: -o-linear-gradient(90deg, rgb(19, 65, 109) 30%, rgb(12, 129, 194) 70%);
+        background: -ms-linear-gradient(90deg, rgb(19, 65, 109) 30%, rgb(12, 129, 194) 70%);
+        background: linear-gradient(180deg, rgb(19, 65, 109) 30%, rgb(12, 129, 194) 70%);
+    }
+}
